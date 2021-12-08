@@ -1,10 +1,10 @@
 <script>
-  export let placeholder = "Roses...";
+  export let placeHolder = "Roses...";
 </script>
 
 <form class="search-form" onsubmit="preventDefault();">
   <label for="search" class="label">Search</label>
-  <input id="search" {placeholder} />
+  <input id="search" placeholder={placeHolder} />
 </form>
 
 <style>

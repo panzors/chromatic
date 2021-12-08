@@ -6,3 +6,9 @@
     <li>Three</li>
   </ul>
 </div>
+
+<style>
+  ul {
+    list-style-type: none;
+  }
+</style>
