@@ -1,21 +1,23 @@
 <script>
-  export let name;
+  import Header from "./components/Header.svelte";
+  import NavBar from "./components/NavBar.svelte";
+  import Performance from "./components/Performance.svelte";
 </script>
 
+<Header />
+
 <main>
-  <h1>Hello {name}!</h1>
-  <p>
-    Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
-    how to build Svelte apps.
-  </p>
+  <NavBar />
+  <div class="content">
+    <Performance />
+  </div>
 </main>
 
 <style>
+  .content {
+  }
   main {
-    text-align: center;
-    padding: 1em;
-    max-width: 240px;
-    margin: 0 auto;
+    display: flex;
   }
 
   h1 {
