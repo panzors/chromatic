@@ -11,7 +11,9 @@
   .search-form {
     display: flex;
   }
-  .search-form > .label{
+  .search-form > .label {
+    margin-left: 10px;
+    margin-right: 10px;
     font-weight: bold;
   }
   .search {

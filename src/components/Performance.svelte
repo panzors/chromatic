@@ -1,9 +1,10 @@
 <script>
   const data = [];
+  export let title = "Chart as follows";
 </script>
 
 <div class="chart panel">
-  <h2>Chart as follows</h2>
+  <h2>{title}</h2>
   <div class="d3chart" />
 </div>
 
