@@ -1,0 +1,22 @@
+{
+  "name": "chromatic_test",
+  "version": "1.0.0",
+  "description": "Testing chromatic integration with storybook and svelte",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panzors/chromatic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panzors/chromatic/issues"
+  },
+  "homepage": "https://github.com/panzors/chromatic#readme",
+  "devDependencies": {
+    "chromatic": "^6.2.0"
+  }
+}
